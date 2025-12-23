@@ -1,0 +1,45 @@
+/* ChatBubble Component Styles */
+
+.chat-row {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.chat-row.ai {
+  justify-content: flex-start;
+}
+
+.chat-row.user {
+  justify-content: flex-end;
+}
+
+.chat-bubble {
+  font-family: "Source Sans Pro", sans-serif, "Segoe UI", "Roboto", sans-serif;
+  border: 1px solid transparent;
+  padding: 12px 16px;
+  margin: 0px 7px;
+  max-width: 70%;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.ai-bubble {
+  background: rgb(240, 242, 246);
+  border-radius: 10px;
+  color: #333;
+}
+
+.human-bubble {
+  background: linear-gradient(135deg, rgb(68, 85, 92) 0%, rgb(15, 28, 45) 100%);
+  color: white;
+  border-radius: 20px;
+}
+
+.chat-icon {
+  border-radius: 5px;
+  object-fit: cover;
+}
