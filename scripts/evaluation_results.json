@@ -1,0 +1,455 @@
+{
+  "evaluation_date": "2025-12-31",
+  "total_questions": 10,
+  "models_tested": [
+    "Gemini 2.5 Flash",
+    "Gemini 2.5 Pro",
+    "Llama 3.3 70B",
+    "GPT-OSS 120B",
+    "Kimi K2"
+  ],
+  "summary": [
+    {
+      "Model": "Gemini 2.5 Flash",
+      "Average Accuracy": "83.0%",
+      "Max Accuracy": "100.0%",
+      "Min Accuracy": "50.0%",
+      "Perfect Scores (≥90%)": 5,
+      "Questions Tested": 10
+    },
+    {
+      "Model": "Llama 3.3 70B",
+      "Average Accuracy": "83.0%",
+      "Max Accuracy": "100.0%",
+      "Min Accuracy": "50.0%",
+      "Perfect Scores (≥90%)": 5,
+      "Questions Tested": 10
+    },
+    {
+      "Model": "Gemini 2.5 Pro",
+      "Average Accuracy": "78.2%",
+      "Max Accuracy": "100.0%",
+      "Min Accuracy": "33.3%",
+      "Perfect Scores (≥90%)": 5,
+      "Questions Tested": 10
+    },
+    {
+      "Model": "Kimi K2",
+      "Average Accuracy": "65.4%",
+      "Max Accuracy": "100.0%",
+      "Min Accuracy": "4.8%",
+      "Perfect Scores (≥90%)": 4,
+      "Questions Tested": 10
+    },
+    {
+      "Model": "GPT-OSS 120B",
+      "Average Accuracy": "49.9%",
+      "Max Accuracy": "100.0%",
+      "Min Accuracy": "0.0%",
+      "Perfect Scores (≥90%)": 2,
+      "Questions Tested": 10
+    }
+  ],
+  "detailed_results": [
+    {
+      "question_id": 1,
+      "question": "Thư viện UELlib có bao nhiêu bản tài liệu (cập nhật 30/6/2025)?",
+      "ground_truth": "Thư viện UELlib có nguồn tài nguyên thông tin đa dạng, với 66.419 bản tài liệu (cập nhật 30/6/2025).",
+      "model": "Gemini 2.5 Flash",
+      "model_answer": "Thư viện UELlib có 66.419 bản tài liệu (cập nhật 30/6/2025).",
+      "accuracy": 1.0
+    },
+    {
+      "question_id": 1,
+      "question": "Thư viện UELlib có bao nhiêu bản tài liệu (cập nhật 30/6/2025)?",
+      "ground_truth": "Thư viện UELlib có nguồn tài nguyên thông tin đa dạng, với 66.419 bản tài liệu (cập nhật 30/6/2025).",
+      "model": "Gemini 2.5 Pro",
+      "model_answer": "Thư viện UELlib có 66.419 bản tài liệu (cập nhật 30/6/2025).",
+      "accuracy": 1.0
+    },
+    {
+      "question_id": 1,
+      "question": "Thư viện UELlib có bao nhiêu bản tài liệu (cập nhật 30/6/2025)?",
+      "ground_truth": "Thư viện UELlib có nguồn tài nguyên thông tin đa dạng, với 66.419 bản tài liệu (cập nhật 30/6/2025).",
+      "model": "Llama 3.3 70B",
+      "model_answer": "Thư viện UELlib có 66.419 bản tài liệu (cập nhật 30/6/2025).",
+      "accuracy": 1.0
+    },
+    {
+      "question_id": 1,
+      "question": "Thư viện UELlib có bao nhiêu bản tài liệu (cập nhật 30/6/2025)?",
+      "ground_truth": "Thư viện UELlib có nguồn tài nguyên thông tin đa dạng, với 66.419 bản tài liệu (cập nhật 30/6/2025).",
+      "model": "GPT-OSS 120B",
+      "model_answer": "66.419 bản tài liệu.",
+      "accuracy": 0.5
+    },
+    {
+      "question_id": 1,
+      "question": "Thư viện UELlib có bao nhiêu bản tài liệu (cập nhật 30/6/2025)?",
+      "ground_truth": "Thư viện UELlib có nguồn tài nguyên thông tin đa dạng, với 66.419 bản tài liệu (cập nhật 30/6/2025).",
+      "model": "Kimi K2",
+      "model_answer": "66.419 bản tài liệu.",
+      "accuracy": 0.5
+    },
+    {
+      "question_id": 2,
+      "question": "Địa chỉ của Thư viện Trường Đại học Kinh tế - Luật là gì?",
+      "ground_truth": "Địa chỉ: Số 669 Đỗ Mười, Khu phố 13, phường Linh Xuân, TP. HCM. Thư viện đặt tại tòa nhà KTL B2 (tầng G, 1, 2).",
+      "model": "Gemini 2.5 Flash",
+      "model_answer": "Địa chỉ của Thư viện Trường Đại học Kinh tế - Luật là: Số 669 Đỗ Mười, Khu phố 13, phường Linh Xuân, TP. HCM.",
+      "accuracy": 0.5714285714285714
+    },
+    {
+      "question_id": 2,
+      "question": "Địa chỉ của Thư viện Trường Đại học Kinh tế - Luật là gì?",
+      "ground_truth": "Địa chỉ: Số 669 Đỗ Mười, Khu phố 13, phường Linh Xuân, TP. HCM. Thư viện đặt tại tòa nhà KTL B2 (tầng G, 1, 2).",
+      "model": "Gemini 2.5 Pro",
+      "model_answer": "Số 669 Đỗ Mười, Khu phố 13, phường Linh Xuân, TP. HCM.",
+      "accuracy": 0.5714285714285714
+    },
+    {
+      "question_id": 2,
+      "question": "Địa chỉ của Thư viện Trường Đại học Kinh tế - Luật là gì?",
+      "ground_truth": "Địa chỉ: Số 669 Đỗ Mười, Khu phố 13, phường Linh Xuân, TP. HCM. Thư viện đặt tại tòa nhà KTL B2 (tầng G, 1, 2).",
+      "model": "Llama 3.3 70B",
+      "model_answer": "Địa chỉ của Thư viện Trường Đại học Kinh tế - Luật là: Số 669 Đỗ Mười, Khu phố 13, phường Linh Xuân, TP. HCM.",
+      "accuracy": 0.5714285714285714
+    },
+    {
+      "question_id": 2,
+      "question": "Địa chỉ của Thư viện Trường Đại học Kinh tế - Luật là gì?",
+      "ground_truth": "Địa chỉ: Số 669 Đỗ Mười, Khu phố 13, phường Linh Xuân, TP. HCM. Thư viện đặt tại tòa nhà KTL B2 (tầng G, 1, 2).",
+      "model": "GPT-OSS 120B",
+      "model_answer": "Số 669 Đỗ Mười, Khu phố 13, phường Linh Xuân, TP HCM.",
+      "accuracy": 0.2857142857142857
+    },
+    {
+      "question_id": 2,
+      "question": "Địa chỉ của Thư viện Trường Đại học Kinh tế - Luật là gì?",
+      "ground_truth": "Địa chỉ: Số 669 Đỗ Mười, Khu phố 13, phường Linh Xuân, TP. HCM. Thư viện đặt tại tòa nhà KTL B2 (tầng G, 1, 2).",
+      "model": "Kimi K2",
+      "model_answer": "Số 669 Đỗ Mười, Khu phố 13, phường Linh Xuân, TP. HCM.",
+      "accuracy": 0.5714285714285714
+    },
+    {
+      "question_id": 3,
+      "question": "Năm học 2025-2026, UEL có bao nhiêu ngành/chuyên ngành đào tạo đại học?",
+      "ground_truth": "Năm học 2025-2026, UEL có 35 ngành/chuyên ngành đào tạo đại học, trong đó 24 chương trình dạy và học bằng tiếng Việt, 09 chương trình dạy và học bằng tiếng Anh và 02 chương trình Co-operative Education.",
+      "model": "Gemini 2.5 Flash",
+      "model_answer": "Năm học 2025-2026, UEL có 35 ngành/chuyên ngành đào tạo đại học.",
+      "accuracy": 0.6666666666666666
+    },
+    {
+      "question_id": 3,
+      "question": "Năm học 2025-2026, UEL có bao nhiêu ngành/chuyên ngành đào tạo đại học?",
+      "ground_truth": "Năm học 2025-2026, UEL có 35 ngành/chuyên ngành đào tạo đại học, trong đó 24 chương trình dạy và học bằng tiếng Việt, 09 chương trình dạy và học bằng tiếng Anh và 02 chương trình Co-operative Education.",
+      "model": "Gemini 2.5 Pro",
+      "model_answer": "Năm học 2025-2026, UEL có 35 ngành/chuyên ngành đào tạo đại học.",
+      "accuracy": 0.6666666666666666
+    },
+    {
+      "question_id": 3,
+      "question": "Năm học 2025-2026, UEL có bao nhiêu ngành/chuyên ngành đào tạo đại học?",
+      "ground_truth": "Năm học 2025-2026, UEL có 35 ngành/chuyên ngành đào tạo đại học, trong đó 24 chương trình dạy và học bằng tiếng Việt, 09 chương trình dạy và học bằng tiếng Anh và 02 chương trình Co-operative Education.",
+      "model": "Llama 3.3 70B",
+      "model_answer": "Năm học 2025-2026, UEL có 35 ngành/chuyên ngành đào tạo đại học.",
+      "accuracy": 0.6666666666666666
+    },
+    {
+      "question_id": 3,
+      "question": "Năm học 2025-2026, UEL có bao nhiêu ngành/chuyên ngành đào tạo đại học?",
+      "ground_truth": "Năm học 2025-2026, UEL có 35 ngành/chuyên ngành đào tạo đại học, trong đó 24 chương trình dạy và học bằng tiếng Việt, 09 chương trình dạy và học bằng tiếng Anh và 02 chương trình Co-operative Education.",
+      "model": "GPT-OSS 120B",
+      "model_answer": "35 ngành/chuyên ngành đào tạo đại học.",
+      "accuracy": 0.16666666666666666
+    },
+    {
+      "question_id": 3,
+      "question": "Năm học 2025-2026, UEL có bao nhiêu ngành/chuyên ngành đào tạo đại học?",
+      "ground_truth": "Năm học 2025-2026, UEL có 35 ngành/chuyên ngành đào tạo đại học, trong đó 24 chương trình dạy và học bằng tiếng Việt, 09 chương trình dạy và học bằng tiếng Anh và 02 chương trình Co-operative Education.",
+      "model": "Kimi K2",
+      "model_answer": "35 ngành/chuyên ngành đào tạo đại học.",
+      "accuracy": 0.16666666666666666
+    },
+    {
+      "question_id": 4,
+      "question": "Tính đến giữa năm 2025, Trường UEL có bao nhiêu nhân sự và tỷ lệ có trình độ TS, PGS và GS là bao nhiêu?",
+      "ground_truth": "Tính đến giữa năm 2025, Trường có 428 nhân sự, trong đó 48,5% nhân sự có trình độ TS, PGS và GS; hơn 45% nhân sự được đào tạo sau đại học ở nước ngoài.",
+      "model": "Gemini 2.5 Flash",
+      "model_answer": "Tính đến giữa năm 2025, Trường có 428 nhân sự, trong đó 48,5% nhân sự có trình độ TS, PGS và GS.",
+      "accuracy": 0.75
+    },
+    {
+      "question_id": 4,
+      "question": "Tính đến giữa năm 2025, Trường UEL có bao nhiêu nhân sự và tỷ lệ có trình độ TS, PGS và GS là bao nhiêu?",
+      "ground_truth": "Tính đến giữa năm 2025, Trường có 428 nhân sự, trong đó 48,5% nhân sự có trình độ TS, PGS và GS; hơn 45% nhân sự được đào tạo sau đại học ở nước ngoài.",
+      "model": "Gemini 2.5 Pro",
+      "model_answer": "Tính đến giữa năm 2025, Trường UEL có 428 nhân sự, trong đó 48,5% có trình độ TS, PGS và GS.",
+      "accuracy": 0.75
+    },
+    {
+      "question_id": 4,
+      "question": "Tính đến giữa năm 2025, Trường UEL có bao nhiêu nhân sự và tỷ lệ có trình độ TS, PGS và GS là bao nhiêu?",
+      "ground_truth": "Tính đến giữa năm 2025, Trường có 428 nhân sự, trong đó 48,5% nhân sự có trình độ TS, PGS và GS; hơn 45% nhân sự được đào tạo sau đại học ở nước ngoài.",
+      "model": "Llama 3.3 70B",
+      "model_answer": "Tính đến giữa năm 2025, Trường UEL có 428 nhân sự, trong đó 48,5% có trình độ TS, PGS và GS.",
+      "accuracy": 0.75
+    },
+    {
+      "question_id": 4,
+      "question": "Tính đến giữa năm 2025, Trường UEL có bao nhiêu nhân sự và tỷ lệ có trình độ TS, PGS và GS là bao nhiêu?",
+      "ground_truth": "Tính đến giữa năm 2025, Trường có 428 nhân sự, trong đó 48,5% nhân sự có trình độ TS, PGS và GS; hơn 45% nhân sự được đào tạo sau đại học ở nước ngoài.",
+      "model": "GPT-OSS 120B",
+      "model_answer": "Tính đến giữa năm 2025, Trường UEL có **428 nhân sự**, trong đó **48,5 %** có trình độ Tiến sĩ, Phó Giáo sư và Giáo sư.",
+      "accuracy": 0.5
+    },
+    {
+      "question_id": 4,
+      "question": "Tính đến giữa năm 2025, Trường UEL có bao nhiêu nhân sự và tỷ lệ có trình độ TS, PGS và GS là bao nhiêu?",
+      "ground_truth": "Tính đến giữa năm 2025, Trường có 428 nhân sự, trong đó 48,5% nhân sự có trình độ TS, PGS và GS; hơn 45% nhân sự được đào tạo sau đại học ở nước ngoài.",
+      "model": "Kimi K2",
+      "model_answer": "Tính đến giữa năm 2025, Trường UEL có 428 nhân sự, trong đó 48,5% có trình độ TS, PGS và GS.",
+      "accuracy": 0.75
+    },
+    {
+      "question_id": 5,
+      "question": "Sinh viên bị kỷ luật mức khiển trách thì được đánh giá kết quả rèn luyện tối đa là bao nhiêu?",
+      "ground_truth": "Sinh viên bị kỷ luật mức khiển trách: đánh giá kết quả rèn luyện không được vượt quá xếp loại Khá.",
+      "model": "Gemini 2.5 Flash",
+      "model_answer": "Sinh viên bị kỷ luật mức khiển trách được đánh giá kết quả rèn luyện tối đa là xếp loại Khá.",
+      "accuracy": 0.8095238095238095
+    },
+    {
+      "question_id": 5,
+      "question": "Sinh viên bị kỷ luật mức khiển trách thì được đánh giá kết quả rèn luyện tối đa là bao nhiêu?",
+      "ground_truth": "Sinh viên bị kỷ luật mức khiển trách: đánh giá kết quả rèn luyện không được vượt quá xếp loại Khá.",
+      "model": "Gemini 2.5 Pro",
+      "model_answer": "Không được vượt quá xếp loại Khá.",
+      "accuracy": 0.3333333333333333
+    },
+    {
+      "question_id": 5,
+      "question": "Sinh viên bị kỷ luật mức khiển trách thì được đánh giá kết quả rèn luyện tối đa là bao nhiêu?",
+      "ground_truth": "Sinh viên bị kỷ luật mức khiển trách: đánh giá kết quả rèn luyện không được vượt quá xếp loại Khá.",
+      "model": "Llama 3.3 70B",
+      "model_answer": "Sinh viên bị kỷ luật mức khiển trách thì được đánh giá kết quả rèn luyện tối đa là xếp loại Khá.",
+      "accuracy": 0.8095238095238095
+    },
+    {
+      "question_id": 5,
+      "question": "Sinh viên bị kỷ luật mức khiển trách thì được đánh giá kết quả rèn luyện tối đa là bao nhiêu?",
+      "ground_truth": "Sinh viên bị kỷ luật mức khiển trách: đánh giá kết quả rèn luyện không được vượt quá xếp loại Khá.",
+      "model": "GPT-OSS 120B",
+      "model_answer": "Không vượt quá xếp loại Khá.",
+      "accuracy": 0.2857142857142857
+    },
+    {
+      "question_id": 5,
+      "question": "Sinh viên bị kỷ luật mức khiển trách thì được đánh giá kết quả rèn luyện tối đa là bao nhiêu?",
+      "ground_truth": "Sinh viên bị kỷ luật mức khiển trách: đánh giá kết quả rèn luyện không được vượt quá xếp loại Khá.",
+      "model": "Kimi K2",
+      "model_answer": "Khá",
+      "accuracy": 0.047619047619047616
+    },
+    {
+      "question_id": 6,
+      "question": "Mức học bổng loại giỏi bằng bao nhiêu phần trăm so với mức học bổng loại khá?",
+      "ground_truth": "Mức học bổng loại giỏi bằng 110% mức học bổng loại khá.",
+      "model": "Gemini 2.5 Flash",
+      "model_answer": "Mức học bổng loại giỏi bằng 110% mức học bổng loại khá.",
+      "accuracy": 1.0
+    },
+    {
+      "question_id": 6,
+      "question": "Mức học bổng loại giỏi bằng bao nhiêu phần trăm so với mức học bổng loại khá?",
+      "ground_truth": "Mức học bổng loại giỏi bằng 110% mức học bổng loại khá.",
+      "model": "Gemini 2.5 Pro",
+      "model_answer": "Mức học bổng loại giỏi bằng 110% mức học bổng loại khá.",
+      "accuracy": 1.0
+    },
+    {
+      "question_id": 6,
+      "question": "Mức học bổng loại giỏi bằng bao nhiêu phần trăm so với mức học bổng loại khá?",
+      "ground_truth": "Mức học bổng loại giỏi bằng 110% mức học bổng loại khá.",
+      "model": "Llama 3.3 70B",
+      "model_answer": "Mức học bổng loại giỏi bằng 110% mức học bổng loại khá.",
+      "accuracy": 1.0
+    },
+    {
+      "question_id": 6,
+      "question": "Mức học bổng loại giỏi bằng bao nhiêu phần trăm so với mức học bổng loại khá?",
+      "ground_truth": "Mức học bổng loại giỏi bằng 110% mức học bổng loại khá.",
+      "model": "GPT-OSS 120B",
+      "model_answer": "110%",
+      "accuracy": 1.0
+    },
+    {
+      "question_id": 6,
+      "question": "Mức học bổng loại giỏi bằng bao nhiêu phần trăm so với mức học bổng loại khá?",
+      "ground_truth": "Mức học bổng loại giỏi bằng 110% mức học bổng loại khá.",
+      "model": "Kimi K2",
+      "model_answer": "110%",
+      "accuracy": 1.0
+    },
+    {
+      "question_id": 7,
+      "question": "Mức học bổng loại xuất sắc bằng bao nhiêu phần trăm so với mức học bổng loại khá?",
+      "ground_truth": "Mức học bổng loại xuất sắc bằng 121% mức học bổng loại khá.",
+      "model": "Gemini 2.5 Flash",
+      "model_answer": "Mức học bổng xuất sắc bằng 121% mức học bổng loại khá.",
+      "accuracy": 1.0
+    },
+    {
+      "question_id": 7,
+      "question": "Mức học bổng loại xuất sắc bằng bao nhiêu phần trăm so với mức học bổng loại khá?",
+      "ground_truth": "Mức học bổng loại xuất sắc bằng 121% mức học bổng loại khá.",
+      "model": "Gemini 2.5 Pro",
+      "model_answer": "Mức học bổng xuất sắc bằng 121% mức học bổng loại khá.",
+      "accuracy": 1.0
+    },
+    {
+      "question_id": 7,
+      "question": "Mức học bổng loại xuất sắc bằng bao nhiêu phần trăm so với mức học bổng loại khá?",
+      "ground_truth": "Mức học bổng loại xuất sắc bằng 121% mức học bổng loại khá.",
+      "model": "Llama 3.3 70B",
+      "model_answer": "Mức học bổng loại xuất sắc bằng 121% mức học bổng loại khá.",
+      "accuracy": 1.0
+    },
+    {
+      "question_id": 7,
+      "question": "Mức học bổng loại xuất sắc bằng bao nhiêu phần trăm so với mức học bổng loại khá?",
+      "ground_truth": "Mức học bổng loại xuất sắc bằng 121% mức học bổng loại khá.",
+      "model": "GPT-OSS 120B",
+      "model_answer": "Mức học bổng loại xuất sắc bằng **121 %** mức học bổng loại khá.",
+      "accuracy": 0.0
+    },
+    {
+      "question_id": 7,
+      "question": "Mức học bổng loại xuất sắc bằng bao nhiêu phần trăm so với mức học bổng loại khá?",
+      "ground_truth": "Mức học bổng loại xuất sắc bằng 121% mức học bổng loại khá.",
+      "model": "Kimi K2",
+      "model_answer": "121%",
+      "accuracy": 1.0
+    },
+    {
+      "question_id": 8,
+      "question": "UEL có bao nhiêu ngành thuộc Top 500 trên bảng xếp hạng QS World University Ranking by Subject 2025 và đó là những ngành nào?",
+      "ground_truth": "UEL có 03 ngành thuộc Top 500 trên bảng xếp hạng QS World University Ranking by Subject 2025: Kế toán – Tài chính, Kinh tế học & Kinh tế lượng, Kinh doanh & Khoa học Quản lý.",
+      "model": "Gemini 2.5 Flash",
+      "model_answer": "UEL có 03 ngành thuộc Top 500 trên bảng xếp hạng QS World University Ranking by Subject 2025, đó là: Kế toán – Tài chính, Kinh tế học & Kinh tế lượng, Kinh doanh & Khoa học Quản lý.",
+      "accuracy": 1.0
+    },
+    {
+      "question_id": 8,
+      "question": "UEL có bao nhiêu ngành thuộc Top 500 trên bảng xếp hạng QS World University Ranking by Subject 2025 và đó là những ngành nào?",
+      "ground_truth": "UEL có 03 ngành thuộc Top 500 trên bảng xếp hạng QS World University Ranking by Subject 2025: Kế toán – Tài chính, Kinh tế học & Kinh tế lượng, Kinh doanh & Khoa học Quản lý.",
+      "model": "Gemini 2.5 Pro",
+      "model_answer": "UEL có 03 ngành thuộc Top 500 trên bảng xếp hạng QS World University Ranking by Subject 2025, đó là: Kế toán – Tài chính, Kinh tế học & Kinh tế lượng, Kinh doanh & Khoa học Quản lý.",
+      "accuracy": 1.0
+    },
+    {
+      "question_id": 8,
+      "question": "UEL có bao nhiêu ngành thuộc Top 500 trên bảng xếp hạng QS World University Ranking by Subject 2025 và đó là những ngành nào?",
+      "ground_truth": "UEL có 03 ngành thuộc Top 500 trên bảng xếp hạng QS World University Ranking by Subject 2025: Kế toán – Tài chính, Kinh tế học & Kinh tế lượng, Kinh doanh & Khoa học Quản lý.",
+      "model": "Llama 3.3 70B",
+      "model_answer": "UEL có 03 ngành thuộc Top 500 trên bảng xếp hạng QS World University Ranking by Subject 2025, bao gồm: Kế toán – Tài chính, Kinh tế học & Kinh tế lượng, Kinh doanh & Khoa học Quản lý.",
+      "accuracy": 1.0
+    },
+    {
+      "question_id": 8,
+      "question": "UEL có bao nhiêu ngành thuộc Top 500 trên bảng xếp hạng QS World University Ranking by Subject 2025 và đó là những ngành nào?",
+      "ground_truth": "UEL có 03 ngành thuộc Top 500 trên bảng xếp hạng QS World University Ranking by Subject 2025: Kế toán – Tài chính, Kinh tế học & Kinh tế lượng, Kinh doanh & Khoa học Quản lý.",
+      "model": "GPT-OSS 120B",
+      "model_answer": "UEL có **3 ngành** thuộc Top 500 trên bảng xếp hạng QS World University Ranking by Subject 2025, đó là:\n\n1. Kế toán – Tài chính  \n2. Kinh tế học & Kinh tế lượng  \n3. Kinh doanh & Khoa học Quản lý.",
+      "accuracy": 0.75
+    },
+    {
+      "question_id": 8,
+      "question": "UEL có bao nhiêu ngành thuộc Top 500 trên bảng xếp hạng QS World University Ranking by Subject 2025 và đó là những ngành nào?",
+      "ground_truth": "UEL có 03 ngành thuộc Top 500 trên bảng xếp hạng QS World University Ranking by Subject 2025: Kế toán – Tài chính, Kinh tế học & Kinh tế lượng, Kinh doanh & Khoa học Quản lý.",
+      "model": "Kimi K2",
+      "model_answer": "UEL có 03 ngành thuộc Top 500 trên bảng xếp hạng QS World University Ranking by Subject 2025: Kế toán – Tài chính, Kinh tế học & Kinh tế lượng, Kinh doanh & Khoa học Quản lý.",
+      "accuracy": 1.0
+    },
+    {
+      "question_id": 9,
+      "question": "UEL đã cung cấp cho xã hội bao nhiêu cử nhân, thạc sĩ, tiến sĩ qua 25 năm phát triển?",
+      "ground_truth": "Qua 25 năm phát triển nhanh và bền vững, UEL đã cung cấp cho xã hội hơn 40.000 cử nhân, thạc sĩ, tiến sĩ.",
+      "model": "Gemini 2.5 Flash",
+      "model_answer": "UEL đã cung cấp cho xã hội hơn 40.000 cử nhân, thạc sĩ, tiến sĩ.",
+      "accuracy": 0.5
+    },
+    {
+      "question_id": 9,
+      "question": "UEL đã cung cấp cho xã hội bao nhiêu cử nhân, thạc sĩ, tiến sĩ qua 25 năm phát triển?",
+      "ground_truth": "Qua 25 năm phát triển nhanh và bền vững, UEL đã cung cấp cho xã hội hơn 40.000 cử nhân, thạc sĩ, tiến sĩ.",
+      "model": "Gemini 2.5 Pro",
+      "model_answer": "Hơn 40.000 cử nhân, thạc sĩ, tiến sĩ.",
+      "accuracy": 0.5
+    },
+    {
+      "question_id": 9,
+      "question": "UEL đã cung cấp cho xã hội bao nhiêu cử nhân, thạc sĩ, tiến sĩ qua 25 năm phát triển?",
+      "ground_truth": "Qua 25 năm phát triển nhanh và bền vững, UEL đã cung cấp cho xã hội hơn 40.000 cử nhân, thạc sĩ, tiến sĩ.",
+      "model": "Llama 3.3 70B",
+      "model_answer": "UEL đã tạo được rất nhiều đột phá và giá trị đặc biệt, mang tầm chiến lược, cung cấp cho xã hội hơn 40.000 cử nhân, thạc sĩ, tiến sĩ.",
+      "accuracy": 0.5
+    },
+    {
+      "question_id": 9,
+      "question": "UEL đã cung cấp cho xã hội bao nhiêu cử nhân, thạc sĩ, tiến sĩ qua 25 năm phát triển?",
+      "ground_truth": "Qua 25 năm phát triển nhanh và bền vững, UEL đã cung cấp cho xã hội hơn 40.000 cử nhân, thạc sĩ, tiến sĩ.",
+      "model": "GPT-OSS 120B",
+      "model_answer": "Hơn 40.000 cử nhân, thạc sĩ và tiến sĩ.",
+      "accuracy": 0.5
+    },
+    {
+      "question_id": 9,
+      "question": "UEL đã cung cấp cho xã hội bao nhiêu cử nhân, thạc sĩ, tiến sĩ qua 25 năm phát triển?",
+      "ground_truth": "Qua 25 năm phát triển nhanh và bền vững, UEL đã cung cấp cho xã hội hơn 40.000 cử nhân, thạc sĩ, tiến sĩ.",
+      "model": "Kimi K2",
+      "model_answer": "Hơn 40.000 cử nhân, thạc sĩ, tiến sĩ.",
+      "accuracy": 0.5
+    },
+    {
+      "question_id": 10,
+      "question": "Trường Đại học Kinh tế - Luật đã nhận được những Huân chương Lao động hạng nào và vào năm nào?",
+      "ground_truth": "Trường đã nhận Huân chương Lao động hạng Ba (năm 2007), Huân chương Lao động hạng Nhì (năm 2015), Huân chương Lao động hạng Nhất (năm 2021).",
+      "model": "Gemini 2.5 Flash",
+      "model_answer": "Trường Đại học Kinh tế - Luật đã nhận được:\n*   Huân chương Lao động hạng Ba (năm 2007)\n*   Huân chương Lao động hạng Nhì (năm 2015)\n*   Huân chương Lao động hạng Nhất (năm 2021)",
+      "accuracy": 1.0
+    },
+    {
+      "question_id": 10,
+      "question": "Trường Đại học Kinh tế - Luật đã nhận được những Huân chương Lao động hạng nào và vào năm nào?",
+      "ground_truth": "Trường đã nhận Huân chương Lao động hạng Ba (năm 2007), Huân chương Lao động hạng Nhì (năm 2015), Huân chương Lao động hạng Nhất (năm 2021).",
+      "model": "Gemini 2.5 Pro",
+      "model_answer": "Trường Đại học Kinh tế - Luật đã nhận được các Huân chương Lao động:\n*   Hạng Ba (năm 2007)\n*   Hạng Nhì (năm 2015)\n*   Hạng Nhất (năm 2021)",
+      "accuracy": 1.0
+    },
+    {
+      "question_id": 10,
+      "question": "Trường Đại học Kinh tế - Luật đã nhận được những Huân chương Lao động hạng nào và vào năm nào?",
+      "ground_truth": "Trường đã nhận Huân chương Lao động hạng Ba (năm 2007), Huân chương Lao động hạng Nhì (năm 2015), Huân chương Lao động hạng Nhất (năm 2021).",
+      "model": "Llama 3.3 70B",
+      "model_answer": "Trường Đại học Kinh tế - Luật đã nhận được Huân chương Lao động hạng Ba (năm 2007), Huân chương Lao động hạng Nhì (năm 2015), Huân chương Lao động hạng Nhất (năm 2021).",
+      "accuracy": 1.0
+    },
+    {
+      "question_id": 10,
+      "question": "Trường Đại học Kinh tế - Luật đã nhận được những Huân chương Lao động hạng nào và vào năm nào?",
+      "ground_truth": "Trường đã nhận Huân chương Lao động hạng Ba (năm 2007), Huân chương Lao động hạng Nhì (năm 2015), Huân chương Lao động hạng Nhất (năm 2021).",
+      "model": "GPT-OSS 120B",
+      "model_answer": "Huân chương Lao động hạng Ba (năm 2007), hạng Nhì (năm 2015) và hạng Nhất (năm 2021).",
+      "accuracy": 1.0
+    },
+    {
+      "question_id": 10,
+      "question": "Trường Đại học Kinh tế - Luật đã nhận được những Huân chương Lao động hạng nào và vào năm nào?",
+      "ground_truth": "Trường đã nhận Huân chương Lao động hạng Ba (năm 2007), Huân chương Lao động hạng Nhì (năm 2015), Huân chương Lao động hạng Nhất (năm 2021).",
+      "model": "Kimi K2",
+      "model_answer": "Huân chương Lao động hạng Ba (năm 2007), hạng Nhì (năm 2015), hạng Nhất (năm 2021).",
+      "accuracy": 1.0
+    }
+  ]
+}
